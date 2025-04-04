@@ -1,5 +1,5 @@
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from 'lucide-react';
@@ -41,8 +41,6 @@ const projects = [
 
 const ProjectsSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
-  const [filter, setFilter] = useState("All");
-  const [filteredProjects, setFilteredProjects] = useState(projects);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -69,7 +67,7 @@ const ProjectsSection = () => {
   }, []);
 
   return (
-    <section id="projects" ref={sectionRef} className="section bg-white">
+    <section id="projects" ref={sectionRef} className="section bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 reveal">My Projects</h2>
