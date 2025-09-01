@@ -59,12 +59,12 @@ const AboutSection = () => {
           <div>
             <h3 className="text-2xl font-bold mb-6 reveal">Who I Am</h3>
             <p className="text-slate-600 mb-6 reveal">
-              I'm a developer with over 5 years of experience specializing in frontend and backend development. 
-              I have a passion for clean code, user-centered design, and solving complex problems with elegant solutions.
+              I'm a passionate web developer starting my journey in frontend and backend development. 
+              I have a strong foundation in modern technologies and a keen eye for clean code, user-centered design, and creating efficient solutions.
             </p>
             <p className="text-slate-600 mb-8 reveal">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-              or sharing my knowledge through blog posts and mentoring.
+              When I'm not coding, you can find me learning new technologies, working on personal projects, 
+              and staying updated with the latest trends in web development.
             </p>
             
             <div className="grid grid-cols-2 gap-4">
