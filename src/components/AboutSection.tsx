@@ -83,7 +83,7 @@ const AboutSection = () => {
                   <Map className="text-blue-500 mr-3" size={20} />
                   <div>
                     <p className="text-sm text-slate-500">Location</p>
-                    <p className="font-medium">Bengaluru India</p>
+                    <p className="font-medium">Bengaluru, India</p>
                   </div>
                 </CardContent>
               </Card>
