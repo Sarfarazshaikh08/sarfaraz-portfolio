@@ -73,7 +73,7 @@ const AboutSection = () => {
                   <User className="text-blue-500 mr-3" size={20} />
                   <div>
                     <p className="text-sm text-slate-500">Name</p>
-                    <p className="font-medium">Your Name</p>
+                    <p className="font-medium">Md Sarfaraz</p>
                   </div>
                 </CardContent>
               </Card>
@@ -83,7 +83,7 @@ const AboutSection = () => {
                   <Map className="text-blue-500 mr-3" size={20} />
                   <div>
                     <p className="text-sm text-slate-500">Location</p>
-                    <p className="font-medium">City, Country</p>
+                    <p className="font-medium">Bengaluru India</p>
                   </div>
                 </CardContent>
               </Card>
@@ -93,7 +93,7 @@ const AboutSection = () => {
                   <Calendar className="text-blue-500 mr-3" size={20} />
                   <div>
                     <p className="text-sm text-slate-500">Experience</p>
-                    <p className="font-medium">5+ Years</p>
+                    <p className="font-medium">Fresher</p>
                   </div>
                 </CardContent>
               </Card>
