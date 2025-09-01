@@ -6,36 +6,36 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with product catalog, shopping cart, and secure checkout process.",
+    title: "SigmaGPT - OpenAPI & Google Gemini API",
+    description: "Developed a custom AI assistant using OpenAI APIs with prompt engineering and interactive chat UI.",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=800",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    liveUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Node.js", "MongoDB","Express.js", "TailwindCSS", "Fontawesome", "OpenAPI/Google Gemini API"],
+    // liveUrl: "",
+    githubUrl: "https://github.com/Sarfarazshaikh08/sigma-gpt.git",
   },
   {
-    title: "Task Management App",
-    description: "A productivity application that helps users organize tasks, set priorities, and track progress.",
+    title: "Stock Trading Platform – MERN Stack (Inspired by Zerodha)",
+    description: "Created a trading app with real-time stock updates, secure authentication, and portfolio tracking.",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
-    tags: ["React", "TypeScript", "Firebase", "Redux"],
-    liveUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Express", "MongoDB", "Node.js", "Bootstrap"],
+    // liveUrl: "#",
+    githubUrl: "https://github.com/Sarfarazshaikh08/zerodha-clone.git",
   },
   {
-    title: "Real Estate Website",
-    description: "A property listing platform with advanced search, map integration, and user authentication.",
+    title: "TodoApp - Simple CURD operation",
+    description: "This project perform Create a todo, Update, Delete, Mark as Done using Done button",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800",
-    tags: ["Next.js", "Tailwind CSS", "PostgreSQL", "Google Maps API"],
-    liveUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Express.js", "MongoDB", "Node.js"],
+    // liveUrl: "#",
+    githubUrl: "https://github.com/Sarfarazshaikh08/todoApp.git",
   },
   {
-    title: "Social Media Dashboard",
-    description: "An analytics dashboard for monitoring and managing social media accounts and campaigns.",
+    title: "Portfolio - Using Lovable.ai",
+    description: "This portfolio is created using  Vite, TypeScript, React, shadcn-ui, Tailwind CSS .",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800",
-    tags: ["Vue.js", "D3.js", "Express", "OAuth"],
-    liveUrl: "#",
-    githubUrl: "#",
+    tags: ["TypeScript", "React", "Vite", "Tailwind CSS"],
+    liveUrl: "https://sarfaraz-portfolio.lovable.app/",
+    githubUrl: "https://github.com/Sarfarazshaikh08/sarfaraz-portfolio.git",
   },
 ];
 
@@ -117,7 +117,7 @@ const ProjectsSection = () => {
         </div>
         
         <div className="text-center mt-12">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Sarfarazshaikh08" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" className="reveal">
               <Github size={18} className="mr-2" />
               View More on GitHub

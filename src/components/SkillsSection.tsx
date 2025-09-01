@@ -3,18 +3,20 @@ import React, { useEffect, useRef } from 'react';
 import { Progress } from "@/components/ui/progress";
 
 const skills = [
-  { name: "React / React Native", percentage: 90 },
-  { name: "JavaScript / TypeScript", percentage: 85 },
-  { name: "HTML & CSS / Tailwind", percentage: 95 },
-  { name: "Node.js", percentage: 80 },
-  { name: "UI/UX Design", percentage: 75 },
-  { name: "Database Management", percentage: 70 },
+  { name: "C Programing Language"},
+  { name: "Core Java"},
+  { name: "React"},
+  { name: "JavaScript / TypeScript"},
+  { name: "HTML & CSS / Tailwind"},
+  { name: "Node.js"},
+  { name: "Next.js"},
+  { name: "Database Management"},
 ];
 
 const technologies = [
-  "React", "TypeScript", "Next.js", "Node.js", "Express", 
-  "Tailwind CSS", "MongoDB", "PostgreSQL", "Figma", "Git",
-  "GraphQL", "Redux", "Firebase", "Docker", "AWS"
+  "C Programing Language", "Core Java", "React", "TypeScript", "Next.js", "Node.js", "Express", 
+  "Tailwind CSS", "MongoDB", "PostgreSQL", "Bootstrap", "Git & GitHub",
+  "ORM & Prisma", "Firebase", "Docker", "AWS(EC2, S3, Amplify)", "Serverless Backend", "Linux(WSL: Ubuntu)"
 ];
 
 const SkillsSection = () => {
@@ -32,7 +34,7 @@ const SkillsSection = () => {
           const progressBars = sectionRef.current?.querySelectorAll('.skill-progress');
           progressBars?.forEach((el, index) => {
             setTimeout(() => {
-              el.setAttribute('value', skills[index].percentage.toString());
+              el.setAttribute('value', skills[indexring());
             }, 200 * index);
           });
         }
@@ -71,7 +73,7 @@ const SkillsSection = () => {
                 <div key={index} className="reveal" style={{ transitionDelay: `${index * 100}ms` }}>
                   <div className="flex justify-between mb-2">
                     <span className="font-medium">{skill.name}</span>
-                    <span className="text-slate-500">{skill.percentage}%</span>
+                    <span className="text-slate-500">{skilpan>
                   </div>
                   <Progress value={0} className="skill-progress h-2" />
                 </div>
