@@ -12,16 +12,16 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Portfolio</h3>
             <p className="text-slate-400 mb-4">Showcasing my work and skills in web development and design.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="https://github.com/Sarfarazshaikh08" className="text-slate-400 hover:text-white transition-colors">
                 <Github size={20} />
               </a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="www.linkedin.com/in/md-sarfaraz-26830123a" className="text-slate-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
               <a href="#" className="text-slate-400 hover:text-white transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="" className="text-slate-400 hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
             </div>
