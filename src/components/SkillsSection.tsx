@@ -1,16 +1,15 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Progress } from "@/components/ui/progress";
 
 const skills = [
-  { name: "C Programing Language", level: 90 },
-  { name: "Core Java", level: 85 },
-  { name: "React", level: 95 },
-  { name: "JavaScript / TypeScript", level: 92 },
-  { name: "HTML & CSS / Tailwind", level: 88 },
-  { name: "Node.js", level: 80 },
-  { name: "Next.js", level: 85 },
-  { name: "Database Management", level: 75 },
+  "C Programing Language",
+  "Core Java", 
+  "React",
+  "JavaScript / TypeScript",
+  "HTML & CSS / Tailwind",
+  "Node.js",
+  "Next.js",
+  "Database Management",
 ];
 
 const technologies = [
@@ -31,12 +30,6 @@ const SkillsSection = () => {
             el.classList.add('active');
           });
 
-          const progressBars = sectionRef.current?.querySelectorAll('.skill-progress');
-          progressBars?.forEach((el, index) => {
-            setTimeout(() => {
-              el.setAttribute('data-value', skills[index].level.toString());
-            }, 200 * index);
-          });
         }
       },
       { threshold: 0.1 }
@@ -68,14 +61,10 @@ const SkillsSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
             <h3 className="text-2xl font-bold mb-8 reveal">Core Skills</h3>
-            <div className="space-y-6">
+            <div className="space-y-4">
               {skills.map((skill, index) => (
-                <div key={index} className="reveal" style={{ transitionDelay: `${index * 100}ms` }}>
-                  <div className="flex justify-between mb-2">
-                    <span className="font-medium">{skill.name}</span>
-                    <span className="text-slate-500">{skill.level}%</span>
-                  </div>
-                  <Progress value={0} className="skill-progress h-2" />
+                <div key={index} className="reveal bg-white p-4 rounded-lg shadow-sm border border-slate-200" style={{ transitionDelay: `${index * 100}ms` }}>
+                  <span className="font-medium text-slate-700">{skill}</span>
                 </div>
               ))}
             </div>
