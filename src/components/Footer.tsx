@@ -15,13 +15,13 @@ const Footer = () => {
               <a href="https://github.com/Sarfarazshaikh08" className="text-slate-400 hover:text-white transition-colors">
                 <Github size={20} />
               </a>
-              <a href="www.linkedin.com/in/md-sarfaraz-26830123a" className="text-slate-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/md-sarfaraz-26830123a" className="text-slate-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
               <a href="#" className="text-slate-400 hover:text-white transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="" className="text-slate-400 hover:text-white transition-colors">
+              <a href="mailto:sarfarazshaikh0604@gmail.com" className="text-slate-400 hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
             </div>
