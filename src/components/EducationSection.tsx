@@ -5,39 +5,24 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const educations = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    location: "Stanford, CA",
-    period: "2015 - 2017",
-    description: "Specialized in Human-Computer Interaction and Web Technologies. Graduated with honors.",
+    degree: "Bachelor of Technology in Computer Science and Engineering",
+    institution: "Quest Group of Institution",
+    location: "Mohali, Punjab",
+    period: "2021 - 2025",
+    description: "Focused on software development, data structures & algorithms, and modern web technologies.",
     achievements: [
-      "Research assistant for Web Accessibility project",
-      "Published paper on modern JavaScript frameworks performance",
-      "Teaching assistant for Advanced Web Development course",
-      "Dean's List for academic excellence"
-    ]
-  },
-  {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California",
-    location: "Berkeley, CA",
-    period: "2011 - 2015",
-    description: "Focused on software development and database management. Minor in User Experience Design.",
-    achievements: [
-      "Hackathon winner: Best Web Application (2014)",
-      "Student representative for IT department",
-      "Completed internship at Google during summer 2014",
-      "Senior project: Developed an accessible learning management system"
+      "Strong foundation in programming languages",
+      "Hands-on experience with full-stack development",
+      "Active participant in coding competitions",
+      "Completed multiple real-world projects"
     ]
   }
 ];
 
 const certifications = [
-  "AWS Certified Developer - Associate",
-  "Google Professional Cloud Developer",
-  "Microsoft Certified: Azure Developer Associate",
-  "React.js Advanced Certification",
-  "TypeScript Professional Developer"
+  "Core Java Certification",
+  "MERN Full Stack Development",
+  "Fundamental Digital Marketing"
 ];
 
 const EducationSection = () => {
