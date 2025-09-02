@@ -3,14 +3,14 @@ import React, { useEffect, useRef } from 'react';
 import { Progress } from "@/components/ui/progress";
 
 const skills = [
-  { name: "C Programing Language"},
-  { name: "Core Java"},
-  { name: "React"},
-  { name: "JavaScript / TypeScript"},
-  { name: "HTML & CSS / Tailwind"},
-  { name: "Node.js"},
-  { name: "Next.js"},
-  { name: "Database Management"},
+  { name: "C Programing Language", level: 90 },
+  { name: "Core Java", level: 85 },
+  { name: "React", level: 95 },
+  { name: "JavaScript / TypeScript", level: 92 },
+  { name: "HTML & CSS / Tailwind", level: 88 },
+  { name: "Node.js", level: 80 },
+  { name: "Next.js", level: 85 },
+  { name: "Database Management", level: 75 },
 ];
 
 const technologies = [
@@ -34,7 +34,7 @@ const SkillsSection = () => {
           const progressBars = sectionRef.current?.querySelectorAll('.skill-progress');
           progressBars?.forEach((el, index) => {
             setTimeout(() => {
-              el.setAttribute('value', skills[indexring());
+              el.setAttribute('data-value', skills[index].level.toString());
             }, 200 * index);
           });
         }
@@ -73,7 +73,7 @@ const SkillsSection = () => {
                 <div key={index} className="reveal" style={{ transitionDelay: `${index * 100}ms` }}>
                   <div className="flex justify-between mb-2">
                     <span className="font-medium">{skill.name}</span>
-                    <span className="text-slate-500">{skilpan>
+                    <span className="text-slate-500">{skill.level}%</span>
                   </div>
                   <Progress value={0} className="skill-progress h-2" />
                 </div>
